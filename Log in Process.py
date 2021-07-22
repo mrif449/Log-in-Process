@@ -5,7 +5,7 @@ pswd = "newpass12@"
 print("Username/Email/Phone Number:")
 username = input()
 print("Password:")
-password = input()1
+password = input()
 if (username == usrnm or username == email or username == phone) and password == pswd:
     print("Log in Successful")
 elif (username != usrnm or username != email or username != phone) or password != pswd:
