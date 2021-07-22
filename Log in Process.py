@@ -9,7 +9,6 @@ password = input()
 if (username == usrnm or username == email or username == phone) and password == pswd:
     print("Log in Successful")
 elif (username != usrnm or username != email or username != phone) or password != pswd:
-
     if (username != usrnm or username != email or username != phone) and password == pswd:
         print("Incorrect Email/Username/Phone Number")
     elif (username == usrnm or username == email or username == phone) and password != pswd:
